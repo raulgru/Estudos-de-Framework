@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.2",
+    "bootstrap-vue-next": "^0.15.5"
+  },
+  "devDependencies": {
+    "unplugin-vue-components": "^0.25.2"
+  }
+}

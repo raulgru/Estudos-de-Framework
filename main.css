@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.bg-darkPurple{
+    background-color: #333;
+}
+
+.text-head{
+    color: #F391A0;
+}
+
+.deco{
+    background-color: #EA3788;
+    width: 20px;
+    height: 2px;
+    transition: width .5s;
+}
+
+a:hover .deco{
+    width: 100%;
+}
+
+.text-nav{
+    color: #B0228C ;
+}
+
+.text-nav:hover{
+    color: #EA3788;
+}
+
+.btn-login{
+    background-color: transparent;
+    border: 1px #EA3788 solid;
+    color: #F391A0;
+}
+
+.btn-login:hover{
+    background-color: #ea3788;
+    border: 1px #EA3788 solid;
+    color: #361134;
+}
+
+.icon-color-dark{
+    color: #333;
+}
+
+.icon-color{
+    color: #e3e3e3;
+}
+
+.changeTheme{
+    background-color: #333;
+    color:#fff;
+}
+
+.img-luiz{
+    width: 400px;
+    height: auto;
+    bottom: 200px;
+    position: absolute;
+    transition: transform .5s;
+}
+
+.img-luiz:hover{
+    transform: translateX(10px);
+}
+
+.info p span{
+    color: var(--bs-danger);
+}
+
+.effect-span::after{
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color:var(--bs-dark);
+    display: block;
+}
+
+.desc::after{
+    content: "";
+    width: 20px;
+    height: 3px;
+    transition: width .7s;
+    display: block;
+    cursor:auto;
+}
+
+p:hover .desc::after{
+    width: 100%;
+    background-color: #F391A0;
+}
+
+.h-effect::after{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #6610f2;
+    transition: width .3s;
+}
