@@ -1,2 +1,1 @@
-Olá como estão,espero que bem.Aqui irei compartilhar o progresso de alguns estudos que estou fazendo sobre framework, 
-caso tenham interesse em ajudar ou compartilhar comentarios sobre fico agradecido.Obrigado
+O projeto está sendo feito utilizando Bootstrap5 junto de algumas modificações em js e css.
